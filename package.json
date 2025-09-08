@@ -1,0 +1,43 @@
+{
+    "name": "chess-tournament-backend",
+    "version": "1.0.0",
+    "description": "Backend API for Chess Tournament Platform with Lichess/Chess.com integration",
+    "main": "server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "test": "jest",
+        "seed": "node scripts/seed.js"
+    },
+    "dependencies": {
+        "axios": "^1.5.0",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "express-rate-limit": "^6.10.0",
+        "helmet": "^7.0.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^7.5.0",
+        "nodemailer": "^6.9.4",
+        "validator": "^13.11.0"
+    },
+    "devDependencies": {
+        "jest": "^29.6.2",
+        "nodemon": "^3.0.1",
+        "supertest": "^6.3.3"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "keywords": [
+        "chess",
+        "tournament",
+        "lichess",
+        "chess.com",
+        "express",
+        "mongodb"
+    ],
+    "author": "Your Name",
+    "license": "MIT"
+}
